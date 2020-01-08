@@ -148,38 +148,43 @@ body {
   margin-top: 50px;
 }
 
-.galerie-choose img {
-  width: 100%;
-}
-
-.galerie-choose img:hover {
-  width: 130%;
-}
-
 .galerie {
   margin-top: 50px;
 }
 
-.galerie img {
+.galerie div {
+  margin-bottom: 50px;
+}
+
+.galerie div img {
   width: 100%;
-  height: 250px;
 }
 
 .galerie2 {
   margin-top: 50px;
 }
 
-.galerie2 img {
+.galerie2 div {
+  margin-bottom: 50px;
+}
+
+.galerie2 div img {
   width: 100%;
-  height: 250px;
 }
 
 .galerie3 {
   margin-top: 50px;
 }
 
-.galerie3 img {
+.galerie3 div {
+  margin-bottom: 50px;
+}
+
+.galerie3 div img {
   width: 100%;
-  height: 250px;
+}
+
+.galerie3 .img-thumbnail:hover {
+  width: 150%;
 }
 /*# sourceMappingURL=style.css.map */

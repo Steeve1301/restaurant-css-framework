@@ -75,37 +75,40 @@ $display3: none;
     padding:3% 5%;
     margin-top:50px;
 
-    & img{
-        width:100%;
-        &:hover{
-            width:130%;
-            
-        }
-    }
 }
 
 .galerie{
     margin-top:50px;
-    & img{
-        width:100%;
-        height:250px;
+    div{
+        margin-bottom:50px;
+        & img{
+            width:100%;
+        }
     }
     
 }
-
 .galerie2{
     margin-top:50px;
+    div{
+        margin-bottom:50px;
+    
     & img{
         width:100%;
-        height:250px;
+    }
         
     }
 }
 
 .galerie3{
     margin-top:50px;
+    div{
+        margin-bottom:50px;
+    
     & img{
         width:100%;
-        height:250px;
     }
+}
+.img-thumbnail:hover{
+    width:150%;
+}
 }
