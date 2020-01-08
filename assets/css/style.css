@@ -1,0 +1,190 @@
+body {
+  background: rgba(183, 184, 185, 0.322);
+}
+
+@-webkit-keyframes diaporama {
+  0% {
+    background-image: url("img/hamburger.jpg");
+  }
+  33.33% {
+    background-image: url("img/hamburger2.jpg");
+  }
+  66.67% {
+    background-image: url("img/hamburger3.jpg");
+  }
+  100% {
+    background-image: url("img/hamburger4.jpg");
+  }
+}
+
+@keyframes diaporama {
+  0% {
+    background-image: url("img/hamburger.jpg");
+  }
+  33.33% {
+    background-image: url("img/hamburger2.jpg");
+  }
+  66.67% {
+    background-image: url("img/hamburger3.jpg");
+  }
+  100% {
+    background-image: url("img/hamburger4.jpg");
+  }
+}
+
+@-webkit-keyframes diaporama2 {
+  0% {
+    background-image: url("img/salle.jpg");
+  }
+  50% {
+    background-image: url("img/cuisine.jpg");
+  }
+  100% {
+    background-image: url("img/bar.jpg");
+  }
+}
+
+@keyframes diaporama2 {
+  0% {
+    background-image: url("img/salle.jpg");
+  }
+  50% {
+    background-image: url("img/cuisine.jpg");
+  }
+  100% {
+    background-image: url("img/bar.jpg");
+  }
+}
+
+@-webkit-keyframes diaporama3 {
+  0% {
+    background-image: url("img/hamburger5.jpg");
+  }
+  50% {
+    background-image: url("img/frais.jpg");
+  }
+  100% {
+    background-image: url("img/hamburger6.jpg");
+  }
+}
+
+@keyframes diaporama3 {
+  0% {
+    background-image: url("img/hamburger5.jpg");
+  }
+  50% {
+    background-image: url("img/frais.jpg");
+  }
+  100% {
+    background-image: url("img/hamburger6.jpg");
+  }
+}
+
+.pictures h1 {
+  text-align: center;
+  margin: 50px 0px;
+  color: #424242;
+}
+
+.pictures .diap {
+  width: 100%;
+  height: 400px;
+  background: gray;
+  -webkit-box-shadow: 0px 0px 10px #777;
+          box-shadow: 0px 0px 10px #777;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-animation: diaporama 15s ease-in-out infinite both;
+          animation: diaporama 15s ease-in-out infinite both;
+}
+
+.pictures .diap:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pictures .diap2 {
+  width: 100%;
+  height: 400px;
+  background: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 0px 10px #777;
+          box-shadow: 0px 0px 10px #777;
+  -webkit-animation: diaporama2 15s ease-in-out infinite both;
+          animation: diaporama2 15s ease-in-out infinite both;
+}
+
+.pictures .diap2:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pictures .diap3 {
+  width: 100%;
+  height: 400px;
+  background: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 0px 10px #777;
+          box-shadow: 0px 0px 10px #777;
+  -webkit-animation: diaporama3 15s ease-in-out infinite both;
+          animation: diaporama3 15s ease-in-out infinite both;
+}
+
+.pictures .diap3:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pictures div p {
+  padding: 30px;
+}
+
+.galerie-choose {
+  background: #F8F9FA;
+  border-radius: 3px;
+  padding: 3% 5%;
+  margin-top: 50px;
+}
+
+.galerie {
+  margin-top: 50px;
+}
+
+.galerie div {
+  margin-bottom: 50px;
+}
+
+.galerie div img {
+  width: 100%;
+}
+
+.galerie2 {
+  margin-top: 50px;
+}
+
+.galerie2 div {
+  margin-bottom: 50px;
+}
+
+.galerie2 div img {
+  width: 100%;
+}
+
+.galerie3 {
+  margin-top: 50px;
+}
+
+.galerie3 div {
+  margin-bottom: 50px;
+}
+
+.galerie3 div img {
+  width: 100%;
+}
+
+.galerie3 .img-thumbnail:hover {
+  width: 150%;
+}
+/*# sourceMappingURL=style.css.map */
