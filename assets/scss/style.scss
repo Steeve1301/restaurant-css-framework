@@ -1,7 +1,12 @@
 body{
-<<<<<<< HEAD
-    background:rgba(183, 184, 185, 0.322);
-}
+    background: rgba(183, 184, 185, 0.322);
+    }
+    .jumbotron{
+    background-image: url(img/como_fazer_hamburguer_caseiro%20-%20Copie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    }
 $display: none;
 $display2: none;
 $display3: none;
@@ -112,7 +117,6 @@ $display3: none;
 .img-thumbnail:hover{
     width:150%;
 }
-=======
     background: rgba(183, 184, 185, 0.322);
     }
 .jumbotron{
@@ -126,5 +130,4 @@ $display3: none;
 }
 .imgcardcaption{
     background:rgba(0, 0, 0, 0.479);
->>>>>>> tiago
 }
