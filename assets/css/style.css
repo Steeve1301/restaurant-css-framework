@@ -80,42 +80,6 @@ body {
   }
 }
 
-@-webkit-keyframes galerie {
-  0% {
-    .galerie2 {
-      display: none;
-    }
-  }
-  50% {
-    .galerie2 {
-      display: none;
-    }
-  }
-  100% {
-    .galerie2 {
-      display: none;
-    }
-  }
-}
-
-@keyframes galerie {
-  0% {
-    .galerie2 {
-      display: none;
-    }
-  }
-  50% {
-    .galerie2 {
-      display: none;
-    }
-  }
-  100% {
-    .galerie2 {
-      display: none;
-    }
-  }
-}
-
 .pictures h1 {
   text-align: center;
   margin: 50px 0px;

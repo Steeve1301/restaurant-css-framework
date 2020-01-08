@@ -20,11 +20,7 @@ $display3: none;
     50%{ background-image:url("img/frais.jpg");}
     100%{ background-image:url("img/hamburger6.jpg");}
 }
-@keyframes galerie{
-    0% { .galerie2{ display: none;}}
-    50% { .galerie2{ display: none;}}
-    100% { .galerie2{ display: none;}}
-}
+
 .pictures{
 
     & h1{
@@ -78,6 +74,7 @@ $display3: none;
     border-radius:3px;
     padding:3% 5%;
     margin-top:50px;
+
     & img{
         width:100%;
         &:hover{
@@ -101,6 +98,7 @@ $display3: none;
     & img{
         width:100%;
         height:250px;
+        
     }
 }
 
