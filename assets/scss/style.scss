@@ -7,9 +7,7 @@ body{
     background-size: cover;
     color: white;
     }
-    $display: none;
-    $display2: none;
-    $display3: none;
+
     @keyframes diaporama{
         0%{ background-image:url("img/hamburger.jpg");}
         33.33%{ background-image:url("img/hamburger2.jpg");}
@@ -114,29 +112,8 @@ body{
             width:100%;
         }
     }
-    .img-thumbnail:hover{
-        width:150%;
-    }
-        background: rgba(183, 184, 185, 0.322);
-        }
-    .jumbotron{
-        background-image: url(img/como_fazer_hamburguer_caseiro%20-%20Copie.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-    }
-    .imgcardcarousel img{
-        filter: grayscale(10%);
-    }
-    .imgcardcaption{
-        background:rgba(0, 0, 0, 0.479);
-    }
-.jumbotron{
-    background-image: url(img/como_fazer_hamburguer_caseiro%20-%20Copie.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
+    background: rgba(183, 184, 185, 0.322);
+ }
 .imgcardcarousel img{
     filter: grayscale(10%);
 }
