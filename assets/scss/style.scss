@@ -1,114 +1,127 @@
 body{
-    background:rgba(183, 184, 185, 0.322);
-}
-$display: none;
-$display2: none;
-$display3: none;
-@keyframes diaporama{
-    0%{ background-image:url("img/hamburger.jpg");}
-    33.33%{ background-image:url("img/hamburger2.jpg");}
-    66.67%{ background-image:url("img/hamburger3.jpg");}
-    100%{ background-image:url("img/hamburger4.jpg");}
-}
-@keyframes diaporama2{
-    0%{ background-image:url("img/salle.jpg");}
-    50%{ background-image:url("img/cuisine.jpg");}
-    100%{ background-image:url("img/bar.jpg");}
-}
-@keyframes diaporama3{
-    0%{ background-image:url("img/hamburger5.jpg");}
-    50%{ background-image:url("img/frais.jpg");}
-    100%{ background-image:url("img/hamburger6.jpg");}
-}
-
-.pictures{
-
-    & h1{
-        text-align: center;
-        margin:50px 0px;
-        color:rgb(66, 66, 66);
+    background: rgba(183, 184, 185, 0.322);
     }
-    .diap{
-        width:100%;
-        height:400px;
-        background:gray;
-        box-shadow: 0px 0px 10px #777;
-        background-size: cover;
-        background-repeat: no-repeat;
-        animation: diaporama 15s ease-in-out infinite both;
-            &:hover{
-                animation-play-state: paused;
+    .jumbotron{
+    background-image: url(img/como_fazer_hamburguer_caseiro%20-%20Copie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    }
+
+    @keyframes diaporama{
+        0%{ background-image:url("img/hamburger.jpg");}
+        33.33%{ background-image:url("img/hamburger2.jpg");}
+        66.67%{ background-image:url("img/hamburger3.jpg");}
+        100%{ background-image:url("img/hamburger4.jpg");}
+    }
+    @keyframes diaporama2{
+        0%{ background-image:url("img/salle.jpg");}
+        50%{ background-image:url("img/cuisine.jpg");}
+        100%{ background-image:url("img/bar.jpg");}
+    }
+    @keyframes diaporama3{
+        0%{ background-image:url("img/hamburger5.jpg");}
+        50%{ background-image:url("img/frais.jpg");}
+        100%{ background-image:url("img/hamburger6.jpg");}
+    }
+    
+    .pictures{
+    
+        & p{
+            background: #F8F9FA;
+            border-radius: 8px;
+            margin: 20px 40px;
+            box-shadow: 0px 0px 8px gray ;
+        }
+        & h1{
+            text-align: center;
+            margin:45px 0px;
+            color:rgb(66, 66, 66);
+        }
+        .diap{
+            width:100%;
+            height:400px;
+            background:gray;
+            box-shadow: 0px 0px 10px #777;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: diaporama 15s ease-in-out infinite both;
+                &:hover{
+                    animation-play-state: paused;
+                }
+        }
+        .diap2{
+            width:100%;
+            height:400px;
+            background:gray;
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 0px 0px 10px #777;
+            animation: diaporama2 15s ease-in-out infinite both;
+                &:hover{
+                    animation-play-state: paused;
+                }
+        }
+        .diap3{
+            width:100%;
+            height:400px;
+            background:gray;
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 0px 0px 10px #777;
+            animation: diaporama3 15s ease-in-out infinite both;
+                &:hover{
+                    animation-play-state: paused;
+                }
+        }
+        div p{
+            padding:30px;
+        }
+    }
+    
+    .galerie-choose{
+        background:#F8F9FA;
+        border-radius:3px;
+        padding:3% 5%;
+        margin-top:50px;
+    
+    }
+    
+    .galerie{
+        margin-top:50px;
+        div{
+            & img{
+                width:100%;
             }
+        }
+        
     }
-    .diap2{
-        width:100%;
-        height:400px;
-        background:gray;
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-shadow: 0px 0px 10px #777;
-        animation: diaporama2 15s ease-in-out infinite both;
-            &:hover{
-                animation-play-state: paused;
-            }
+    .galerie2{
+        margin-top:50px;
+        div{
+            margin-bottom:50px;
+        
+        & img{
+            width:100%;
+        }
+            
+        }
     }
-    .diap3{
-        width:100%;
-        height:400px;
-        background:gray;
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-shadow: 0px 0px 10px #777;
-        animation: diaporama3 15s ease-in-out infinite both;
-            &:hover{
-                animation-play-state: paused;
-            }
-    }
-    div p{
-        padding:30px;
-    }
-}
-
-.galerie-choose{
-    background:#F8F9FA;
-    border-radius:3px;
-    padding:3% 5%;
-    margin-top:50px;
-
-}
-
-.galerie{
-    margin-top:50px;
-    div{
-        margin-bottom:50px;
+    
+    .galerie3{
+        margin-top:50px;
+        div{
+            margin-bottom:50px;
+        
         & img{
             width:100%;
         }
     }
-    
+    background: rgba(183, 184, 185, 0.322);
+ }
+.imgcardcarousel img{
+    filter: grayscale(10%);
 }
-.galerie2{
-    margin-top:50px;
-    div{
-        margin-bottom:50px;
-    
-    & img{
-        width:100%;
-    }
-        
-    }
-}
-
-.galerie3{
-    margin-top:50px;
-    div{
-        margin-bottom:50px;
-    
-    & img{
-        width:100%;
-    }
-}
-.img-thumbnail:hover{
-    width:150%;
-}
+.imgcardcaption{
+    background:rgba(0, 0, 0, 0.479);
 }

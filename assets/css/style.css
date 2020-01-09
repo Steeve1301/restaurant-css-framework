@@ -2,6 +2,13 @@ body {
   background: rgba(183, 184, 185, 0.322);
 }
 
+.jumbotron {
+  background-image: url(img/como_fazer_hamburguer_caseiro%20-%20Copie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 @-webkit-keyframes diaporama {
   0% {
     background-image: url("img/hamburger.jpg");
@@ -80,9 +87,17 @@ body {
   }
 }
 
+.pictures p {
+  background: #F8F9FA;
+  border-radius: 8px;
+  margin: 20px 40px;
+  -webkit-box-shadow: 0px 0px 8px gray;
+          box-shadow: 0px 0px 8px gray;
+}
+
 .pictures h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin: 45px 0px;
   color: #424242;
 }
 
@@ -152,10 +167,6 @@ body {
   margin-top: 50px;
 }
 
-.galerie div {
-  margin-bottom: 50px;
-}
-
 .galerie div img {
   width: 100%;
 }
@@ -174,6 +185,7 @@ body {
 
 .galerie3 {
   margin-top: 50px;
+  background: rgba(183, 184, 185, 0.322);
 }
 
 .galerie3 div {
@@ -184,7 +196,12 @@ body {
   width: 100%;
 }
 
-.galerie3 .img-thumbnail:hover {
-  width: 150%;
+.imgcardcarousel img {
+  -webkit-filter: grayscale(10%);
+          filter: grayscale(10%);
+}
+
+.imgcardcaption {
+  background: rgba(0, 0, 0, 0.479);
 }
 /*# sourceMappingURL=style.css.map */
