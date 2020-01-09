@@ -22,24 +22,41 @@
 
 
 <!--? Body START -->
-<body class="bg-light">
+<!--? BODY START-->
+<body>
     <!--? Header Start-->
     <header>
         <header class="container-fluid">
 
             <!--? Start of my navigations-->
                 <!--? Logo img Start -->
-                <nav class=" row navbar navbar-expand-lg navbar-light bg-light">
-                    <a href="index.html">
-                        <img class="ml-sm-5"src="./assets/css/img/logo.png" width="80" height="80" class="d-inline-block align-top" alt=mon logo">
-                        <h4 class="ml-sm-2">Time's to eat</h4>
-                    </a>
+            <nav class=" row navbar navbar-expand-lg navbar-light bg-light">
+                <a class="col  navbar-brand" href="index.html">
+                    <img class="ml-sm-5"src="./assets/css/img/logo.png" width="80" height="80" class="d-inline-block align-top" alt=mon logo">
+                    <h4 class="ml-sm-2">Time's to eat</h4 cla>
+                </a>
                 <!--? Logo img End-->
+    
+    
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="row collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class=" col navbar-nav mr-auto">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-                                <a class="dropdown-item" href="photos.html">Fried Chiken</a>
-                                <a class="dropdown-item" href="photos2.html">Luxuous Hamburger</a>
+                        </li>
+                        <!--? start of dropdown-menu NAV-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Carte.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Carte
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Carte.html">Fried Chiken</a>
+                                <a class="dropdown-item" href="Carte.html">Luxuous Hamburger</a>
                             <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="photos3.html">Fries & Cheese</a>
+                                <a class="dropdown-item" href="Carte.html">Fries & Chesse</a>
                             </div>
                             </li>
                             <li class="nav-item">
@@ -50,7 +67,7 @@
                             <a class="nav-link" href="restaurant.html">Restaurant</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Formulaire.html">Contact</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
     
                         
