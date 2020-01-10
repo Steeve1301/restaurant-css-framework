@@ -44,9 +44,9 @@ et des composent imposer par cette framework
 ## Tableaux horaire Jour 1
 
 | Etape | Description |
-| ------:| -----------:|
-| `Creation du repos`  | creation de squellete HTML en referencement naturelle |
-| `Creation des squellette°` | creation des squellette html p° 1 - 2 - 3 - 4 |
+| :------| -----------:|
+| `Creation du repos`  | Creation du repertoire gitHub |
+| `Creation des squellette°` | creation squellete des pages FOOTER & HEADER |
 | `Creation des contenus`    |  Page° 1 - 2 - 3 - 4|
 
 
@@ -54,7 +54,7 @@ et des composent imposer par cette framework
 
 
 | Etape | Description |
-| ------:| -----------:|
+| :------| -----------:|
 | `Creation des contenus fin`    |  Page° 5 - 6 (who dev de site)|
 | `Positionnement des contenus `    |  construction font awesome icon [X] |
 | `stylisation des contenu `    |  integration logo  a la barre de navigations[X] |
@@ -65,17 +65,18 @@ et des composent imposer par cette framework
 ## Tableaux horaire Jour 3
 
 | Etape | Description |
-| ------:| -----------:|
-| `Finition des contenu `    |  Creation du readme|
-| `Markdown`    |  Creation du readme|
+| :------| -----------:|
+| `Creation des contenus fin`    |  Page° 5 - 6 (who dev de site)|
+| `Finition des contenu `    |  Finitions des certaine bordershadow & placement|
+| `Creation du readme`    |  Creation du readme et exposition de la mission|
 
 
 ## Tableaux horaire Jour 3
 
 | Etape | Description |
-| ------:| -----------:|
-| `Creation du repos`  | creation de squellete HTML en referencement naturelle |
-| `Creation des squellette°` | re-creation des class scss |
+| :------| -----------:|
+| `Finition du Readme`  | Creationd es tableaux horaire  |
+| `Présentations°` | presentation de la template |
 
 
 
