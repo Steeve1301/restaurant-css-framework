@@ -83,8 +83,11 @@ et des composent imposer par cette framework
 
 ## Les difficulté rencontré pendant cette mission
 Nous rencontrer certaine légère difficulté lors de cette mission 
+
 *Steve* ` j'ai renconctrer certaine diffculté avec la mise en place de slide sur la page acceuil & certain conflit git`
+
 *Tiago* ` j'ai rencontrer de leger probleme avec la mise en place de certaine carte `
+
 *Joffrey* `J'ai rencontrer rencontrer certaine difficultée comme certaine disposion d'element avec flex & grid`
 
 |
